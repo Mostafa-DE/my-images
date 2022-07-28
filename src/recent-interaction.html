@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body>
+
+
+<!--<section>-->
+<!--    <div class="container flex flex-col justify-center px-6 py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">-->
+<!--        <div class="flex justify-around">-->
+<!--            <div class="container mx-auto">-->
+<!--                <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6">-->
+<!--                    <div class="flex flex-col justify-center text-6xl rounded-xl p-6">-->
+<!--                        <div class="container mx-auto px-20">-->
+<!--                            <div class="p-3 px-6 min-h-48 flex justify-center items-center">-->
+<!--                                <div>-->
+<!--                                    <div class="rounded-md shadow-md sm:w-96 bg-coolGray-900 text-coolGray-100">-->
+<!--                                        <div class="flex items-center justify-between p-3">-->
+<!--                                            <div class="flex items-center space-x-2">-->
+<!--                                                <img src="https://stackdiary.com/140x100.png" alt=""-->
+<!--                                                     class="object-cover object-center w-8 h-8 rounded-full shadow-sm bg-coolGray-500 border-coolGray-700"-->
+<!--                                                >-->
+<!--                                                <div class="-space-y-1">-->
+<!--                                                    <h2 class="text-sm font-semibold leading-none">-->
+<!--                                                        External_</h2>-->
+<!--                                                    <span class="inline-block text-xs leading-none text-coolGray-400">-->
+<!--                                                New York City-->
+<!--                                            </span>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <img src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"-->
+<!--                                             alt=""-->
+<!--                                             class="object-cover object-center w-full h-72 bg-coolGray-500">-->
+<!--                                        <div class="p-3">-->
+<!--                                            <div class="flex items-center justify-between">-->
+<!--                                                <div class="flex items-center space-x-3">-->
+<!--                                                    <button type="button" title="Like post"-->
+<!--                                                            class="flex items-center justify-center">-->
+<!--                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"-->
+<!--                                                             class="w-5 h-5 fill-current">-->
+<!--                                                            <path d="M453.122,79.012a128,128,0,0,0-181.087.068l-15.511,15.7L241.142,79.114l-.1-.1a128,128,0,0,0-181.02,0l-6.91,6.91a128,128,0,0,0,0,181.019L235.485,449.314l20.595,21.578.491-.492.533.533L276.4,450.574,460.032,266.94a128.147,128.147,0,0,0,0-181.019ZM437.4,244.313,256.571,425.146,75.738,244.313a96,96,0,0,1,0-135.764l6.911-6.91a96,96,0,0,1,135.713-.051l38.093,38.787,38.274-38.736a96,96,0,0,1,135.765,0l6.91,6.909A96.11,96.11,0,0,1,437.4,244.313Z"></path>-->
+<!--                                                        </svg>-->
+<!--                                                    </button>-->
+<!--                                                    <button type="button" title="Add a comment"-->
+<!--                                                            class="flex items-center justify-center">-->
+<!--                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"-->
+<!--                                                             class="w-5 h-5 fill-current">-->
+<!--                                                            <path d="M496,496H480a273.39,273.39,0,0,1-179.025-66.782l-16.827-14.584C274.814,415.542,265.376,416,256,416c-63.527,0-123.385-20.431-168.548-57.529C41.375,320.623,16,270.025,16,216S41.375,111.377,87.452,73.529C132.615,36.431,192.473,16,256,16S379.385,36.431,424.548,73.529C470.625,111.377,496,161.975,496,216a171.161,171.161,0,0,1-21.077,82.151,201.505,201.505,0,0,1-47.065,57.537,285.22,285.22,0,0,0,63.455,97L496,457.373ZM294.456,381.222l27.477,23.814a241.379,241.379,0,0,0,135,57.86,317.5,317.5,0,0,1-62.617-105.583v0l-4.395-12.463,9.209-7.068C440.963,305.678,464,262.429,464,216c0-92.636-93.309-168-208-168S48,123.364,48,216s93.309,168,208,168a259.114,259.114,0,0,0,31.4-1.913Z"></path>-->
+<!--                                                        </svg>-->
+<!--                                                    </button>-->
+<!--                                                    <button type="button" title="Share post"-->
+<!--                                                            class="flex items-center justify-center">-->
+<!--                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"-->
+<!--                                                             class="w-5 h-5 fill-current">-->
+<!--                                                            <path d="M474.444,19.857a20.336,20.336,0,0,0-21.592-2.781L33.737,213.8v38.066l176.037,70.414L322.69,496h38.074l120.3-455.4A20.342,20.342,0,0,0,474.444,19.857ZM337.257,459.693,240.2,310.37,389.553,146.788l-23.631-21.576L215.4,290.069,70.257,232.012,443.7,56.72Z"></path>-->
+<!--                                                        </svg>-->
+<!--                                                    </button>-->
+<!--                                                </div>-->
+<!--                                                <button type="button" title="delete image"-->
+<!--                                                        class="flex items-center justify-center">-->
+<!--                                                    <svg class="h-5 w-5 text-black" viewBox="0 0 24 24" fill="none"-->
+<!--                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"-->
+<!--                                                         stroke-linejoin="round">-->
+<!--                                                        <polyline points="3 6 5 6 21 6"/>-->
+<!--                                                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>-->
+<!--                                                        <line x1="10" y1="11" x2="10" y2="17"/>-->
+<!--                                                        <line x1="14" y1="11" x2="14" y2="17"/>-->
+<!--                                                    </svg>-->
+<!--                                                </button>-->
+<!--                                            </div>-->
+<!--                                            <div class="flex flex-wrap items-center pt-3 pb-1">-->
+<!--                                                <div class="flex items-center space-x-2">-->
+<!--                                                    <div class="flex -space-x-1">-->
+<!--                                                        <img alt=""-->
+<!--                                                             class="w-5 h-5 border rounded-full bg-coolGray-500 border-coolGray-800"-->
+<!--                                                             src="https://stackdiary.com/140x100.png">-->
+<!--                                                        <img alt=""-->
+<!--                                                             class="w-5 h-5 border rounded-full bg-coolGray-500 border-coolGray-800"-->
+<!--                                                             src="https://stackdiary.com/140x100.png">-->
+<!--                                                        <img alt=""-->
+<!--                                                             class="w-5 h-5 border rounded-full bg-coolGray-500 border-coolGray-800"-->
+<!--                                                             src="https://stackdiary.com/140x100.png">&lt;!&ndash;&ndash;&gt;-->
+<!--                                                    </div>-->
+<!--                                                    <span class="text-sm"> Liked by-->
+<!--                                                <span class="font-semibold">Pixels</span>and-->
+<!--                                                <span class="font-semibold">20 others</span>-->
+<!--                                            </span>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="space-y-3">-->
+<!--                                                <p class="text-sm">-->
+<!--                                                    <span class="text-base font-semibold">External_</span> It's getting-->
+<!--                                                    cold out-->
+<!--                                                    there!-->
+<!--                                                </p>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="flex flex-col justify-center text-6xl rounded-xl p-6">-->
+<!--                        <div class="container mx-auto px-20">-->
+<!--                            <div class="p-3 px-6 min-h-48 flex justify-center items-center">-->
+<!--                                <div>-->
+<!--                                    <div class="rounded-md shadow-md sm:w-96 bg-coolGray-900 text-coolGray-100">-->
+<!--                                        <div class="flex items-center justify-between p-3">-->
+<!--                                            <div class="flex items-center space-x-2">-->
+<!--                                                <img src="https://stackdiary.com/140x100.png" alt=""-->
+<!--                                                     class="object-cover object-center w-8 h-8 rounded-full shadow-sm bg-coolGray-500 border-coolGray-700"-->
+<!--                                                >-->
+<!--                                                <div class="-space-y-1">-->
+<!--                                                    <h2 class="text-sm font-semibold leading-none">-->
+<!--                                                        External_</h2>-->
+<!--                                                    <span class="inline-block text-xs leading-none text-coolGray-400">-->
+<!--                                                New York City-->
+<!--                                            </span>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <img src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"-->
+<!--                                             alt=""-->
+<!--                                             class="object-cover object-center w-full h-72 bg-coolGray-500">-->
+<!--                                        <div class="p-3">-->
+<!--                                            <div class="flex items-center justify-between">-->
+<!--                                                <div class="flex items-center space-x-3">-->
+<!--                                                    <button type="button" title="Like post"-->
+<!--                                                            class="flex items-center justify-center">-->
+<!--                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"-->
+<!--                                                             class="w-5 h-5 fill-current">-->
+<!--                                                            <path d="M453.122,79.012a128,128,0,0,0-181.087.068l-15.511,15.7L241.142,79.114l-.1-.1a128,128,0,0,0-181.02,0l-6.91,6.91a128,128,0,0,0,0,181.019L235.485,449.314l20.595,21.578.491-.492.533.533L276.4,450.574,460.032,266.94a128.147,128.147,0,0,0,0-181.019ZM437.4,244.313,256.571,425.146,75.738,244.313a96,96,0,0,1,0-135.764l6.911-6.91a96,96,0,0,1,135.713-.051l38.093,38.787,38.274-38.736a96,96,0,0,1,135.765,0l6.91,6.909A96.11,96.11,0,0,1,437.4,244.313Z"></path>-->
+<!--                                                        </svg>-->
+<!--                                                    </button>-->
+<!--                                                    <button type="button" title="Add a comment"-->
+<!--                                                            class="flex items-center justify-center">-->
+<!--                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"-->
+<!--                                                             class="w-5 h-5 fill-current">-->
+<!--                                                            <path d="M496,496H480a273.39,273.39,0,0,1-179.025-66.782l-16.827-14.584C274.814,415.542,265.376,416,256,416c-63.527,0-123.385-20.431-168.548-57.529C41.375,320.623,16,270.025,16,216S41.375,111.377,87.452,73.529C132.615,36.431,192.473,16,256,16S379.385,36.431,424.548,73.529C470.625,111.377,496,161.975,496,216a171.161,171.161,0,0,1-21.077,82.151,201.505,201.505,0,0,1-47.065,57.537,285.22,285.22,0,0,0,63.455,97L496,457.373ZM294.456,381.222l27.477,23.814a241.379,241.379,0,0,0,135,57.86,317.5,317.5,0,0,1-62.617-105.583v0l-4.395-12.463,9.209-7.068C440.963,305.678,464,262.429,464,216c0-92.636-93.309-168-208-168S48,123.364,48,216s93.309,168,208,168a259.114,259.114,0,0,0,31.4-1.913Z"></path>-->
+<!--                                                        </svg>-->
+<!--                                                    </button>-->
+<!--                                                    <button type="button" title="Share post"-->
+<!--                                                            class="flex items-center justify-center">-->
+<!--                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"-->
+<!--                                                             class="w-5 h-5 fill-current">-->
+<!--                                                            <path d="M474.444,19.857a20.336,20.336,0,0,0-21.592-2.781L33.737,213.8v38.066l176.037,70.414L322.69,496h38.074l120.3-455.4A20.342,20.342,0,0,0,474.444,19.857ZM337.257,459.693,240.2,310.37,389.553,146.788l-23.631-21.576L215.4,290.069,70.257,232.012,443.7,56.72Z"></path>-->
+<!--                                                        </svg>-->
+<!--                                                    </button>-->
+<!--                                                </div>-->
+<!--                                                <button type="button" title="delete image"-->
+<!--                                                        class="flex items-center justify-center">-->
+<!--                                                    <svg class="h-5 w-5 text-black" viewBox="0 0 24 24" fill="none"-->
+<!--                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"-->
+<!--                                                         stroke-linejoin="round">-->
+<!--                                                        <polyline points="3 6 5 6 21 6"/>-->
+<!--                                                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>-->
+<!--                                                        <line x1="10" y1="11" x2="10" y2="17"/>-->
+<!--                                                        <line x1="14" y1="11" x2="14" y2="17"/>-->
+<!--                                                    </svg>-->
+<!--                                                </button>-->
+<!--                                            </div>-->
+<!--                                            <div class="flex flex-wrap items-center pt-3 pb-1">-->
+<!--                                                <div class="flex items-center space-x-2">-->
+<!--                                                    <div class="flex -space-x-1">-->
+<!--                                                        <img alt=""-->
+<!--                                                             class="w-5 h-5 border rounded-full bg-coolGray-500 border-coolGray-800"-->
+<!--                                                             src="https://stackdiary.com/140x100.png">-->
+<!--                                                        <img alt=""-->
+<!--                                                             class="w-5 h-5 border rounded-full bg-coolGray-500 border-coolGray-800"-->
+<!--                                                             src="https://stackdiary.com/140x100.png">-->
+<!--                                                        <img alt=""-->
+<!--                                                             class="w-5 h-5 border rounded-full bg-coolGray-500 border-coolGray-800"-->
+<!--                                                             src="https://stackdiary.com/140x100.png">&lt;!&ndash;&ndash;&gt;-->
+<!--                                                    </div>-->
+<!--                                                    <span class="text-sm"> Liked by-->
+<!--                                                <span class="font-semibold">Pixels</span>and-->
+<!--                                                <span class="font-semibold">20 others</span>-->
+<!--                                            </span>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="space-y-3">-->
+<!--                                                <p class="text-sm">-->
+<!--                                                    <span class="text-base font-semibold">External_</span> It's getting-->
+<!--                                                    cold out-->
+<!--                                                    there!-->
+<!--                                                </p>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+</body>
+</html>

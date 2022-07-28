@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Register | Page</title>
+    <link rel="stylesheet" href="/dist/output.css"/>
+</head>
+<body class>
+<div class="lg:flex">
+    <div class="lg:w-1/2 xl:max-w-screen-sm">
+        <div class="py-12 lg:bg-white flex justify-center lg:justify-start lg:px-12">
+            <div class="cursor-pointer flex items-center">
+                <div class="pt-2">
+                    <img src="./img/logo.svg" alt=""/>
+                </div>
+            </div>
+        </div>
+        <div class=" px-12 sm:px-24 md:px-48 lg:px-12 xl:px-24 xl:max-w-2xl">
+            <h2 class="text-center text-4xl text-info-dark font-display lg:text-left xl:text-4xl xl:text-bold">
+                Register Form
+            </h2>
+            <div class="mt-12">
+                <form>
+                    <div>
+                        <div class="text-sm font-bold text-gray-700 tracking-wide">Username</div>
+                        <input class="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-info-dark"
+                               type="text" placeholder="Mostafa-DE">
+                    </div>
+                    <div class="mt-8">
+                        <div class="flex justify-between items-center">
+                            <div class="text-sm font-bold text-gray-700 tracking-wide">
+                                Email Address
+                            </div>
+                        </div>
+                        <input class="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-info-dark"
+                               type="email" placeholder="mostafa@gmail.com">
+                    </div>
+                    <div class="mt-8">
+                        <div class="flex justify-between items-center">
+                            <div class="text-sm font-bold text-gray-700 tracking-wide">
+                                Password
+                            </div>
+                        </div>
+                        <input class="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-info-dark"
+                               type="password" placeholder="Enter your password">
+                    </div>
+                    <div class="mt-8">
+                        <div class="flex justify-between items-center">
+                            <div class="text-sm font-bold text-gray-700 tracking-wide">
+                                Confirm Password
+                            </div>
+                        </div>
+                        <input class="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-info-dark"
+                               type="password" placeholder="Enter your password">
+                    </div>
+                    <div class="mt-10">
+                        <button class="bg-secondary hover:bg-primary text-gray-100 p-4 w-full rounded-full tracking-wide
+                                font-semibold font-display focus:outline-none focus:shadow-outline hover:text-secondary
+                                shadow-lg transition duration-700 ease-in-out border border-slate-400 border-secondary">
+                            Register
+                        </button>
+                    </div>
+                </form>
+                <div class="mt-12 text-sm font-display font-semibold text-gray-700 text-center">
+                    Don't have an account ? <a class="cursor-pointer text-info-dark hover:text-info-light">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden lg:flex items-center justify-center bg-info-background flex-1 h-screen">
+        <div class="max-w-xs transform duration-200 hover:scale-110 cursor-pointer">
+            <img src="./img/logo.svg" alt=""/>
+        </div>
+    </div>
+</div>
+</body>
+</html>
